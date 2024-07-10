@@ -10,7 +10,7 @@ export default class espectaculo{
     }
 
     procesarespectadores(e){
-        this.acedad = e.edad
+        this.acedad = e.edad;
         this.espec++
         
         this.descuen = (this.entrada * 10) / 100;
@@ -30,7 +30,7 @@ export default class espectaculo{
     
     }
 
-    preciocancelado(e){;
+    preciocancelado(e){
         if(e.edad < 18){
             return this.nuevo;
             

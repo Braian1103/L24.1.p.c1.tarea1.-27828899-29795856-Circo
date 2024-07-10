@@ -13,6 +13,6 @@ export default class espectadores{
         get edad(){
             return this._edad;
         }
+    
 
-        
-}
+    }         
